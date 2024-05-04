@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - TattooArt</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Adicione aqui seus estilos CSS e links para bibliotecas externas, se necessário -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.15.4/css/all.css"
+    />
+    <!-- Include the Font Awesome library -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Beau+Rivage&family=New+Rocker&family=UnifrakturMaguntia&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-wuLriYF3TbeLU3Nl7pEs+5fh/sHYAbLFy9jAGZO/5P4BpfC02GIGmgxz+0LhJ20SFWav8+fh3Zyegth3xuwoBw=="
+      crossorigin="anonymous"
+    />
+
+    <style>
+      .font-new-rocker {
+        font-family: "New Rocker", cursive;
+      }
+      body {
+        background-color: black;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="flex items-center justify-between p-4">
+      <a href="/index.html" id="logo" class="flex items-center">
+        <img
+          src="/img/elephanteLogo.png"
+          alt="TLogo Tatto - Arte"
+          class="h-20 w-22 m-10 pl-4"
+        />
+      </a>
+      <nav class="flex items-center justify-center flex-1">
+        <ul
+          id="navbar"
+          class="hidden md:flex gap-4 sm:gap-10 md:gap-20 text-lg md:text-2xl m-5 p-10 hide-sm"
+        >
+          <li>
+            <a href="/ourServices.html" class="font-new-rocker uppercase"
+              >Nossos Serviços</a
+            >
+          </li>
+          <li>
+            <a href="/aboutUs.html" class="font-new-rocker uppercase"
+              >Sobre Nós</a
+            >
+          </li>
+          <li>
+            <a href="/portfolio.html" class="font-new-rocker uppercase"
+              >Portfolio</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <!-- Icons that only appear on screens smaller than 650px -->
+      <div
+        class="md:hidden flex items-center gap-4 m-8 p-8 justify-center text-center right-8 mr-10 mt-6 text-white text-3xl h-12 w-12"
+      >
+        <ul class="flex m-8 p-8">
+          <li>
+            <a href="/ourServices.html" class="text-white"
+              ><i class="far fa-list-check mr-2"></i
+            ></a>
+          </li>
+          <li>
+            <a href="/aboutUs.html" class="text-white"
+              ><i class="far fa-address-card mr-2"></i
+            ></a>
+          </li>
+          <li>
+            <a href="/portfolio.html" class="text-white"
+              ><i class="far fa-camera-retro mr-2"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-8">
+      <div class="font-new-rocker uppercase text-center text-3xl mb-20">
+        Portfolio
+      </div>
+
+      <div
+        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8"
+      >
+        <div class="flex flex-col items-center group">
+          <img
+            src="/img/tatuagem1.jpg"
+            alt=""
+            class="w-full h-64 object-cover mb-2 transition duration-300 ease-in-out transform hover:scale-105"
+          />
+          <h2
+            class="text-center text-lg sm:text-xl md:text-lg lg:text-base"
+          ></h2>
+        </div>
+        <div class="flex flex-col items-center group">
+          <img
+            src="/img/tatuagem2.jpg"
+            alt=""
+            class="w-full h-64 object-cover mb-2 transition duration-300 ease-in-out transform hover:scale-105"
+          />
+          <h2
+            class="text-center text-lg sm:text-xl md:text-lg lg:text-base"
+          ></h2>
+        </div>
+        <div class="flex flex-col items-center group">
+          <img
+            src="/img/tatuagem3.jpg"
+            alt=""
+            class="w-full h-64 object-cover mb-2 transition duration-300 ease-in-out transform hover:scale-105"
+          />
+          <h2
+            class="text-center text-lg sm:text-xl md:text-lg lg:text-base"
+          ></h2>
+        </div>
+        <div class="flex flex-col items-center group">
+          <img
+            src="/img/tatuagem4.jpg"
+            alt=""
+            class="w-full h-64 object-cover mb-2 transition duration-300 ease-in-out transform hover:scale-105"
+          />
+          <h2
+            class="text-center text-lg sm:text-xl md:text-lg lg:text-base"
+          ></h2>
+        </div>
+        <div class="flex flex-col items-center group">
+          <img
+            src="/img/tatuagem5.jpg"
+            alt=""
+            class="w-full h-64 object-cover mb-2 transition duration-300 ease-in-out transform hover:scale-105"
+          />
+          <h2
+            class="text-center text-lg sm:text-xl md:text-lg lg:text-base"
+          ></h2>
+        </div>
+        <div class="flex flex-col items-center group">
+          <img
+            src="/img/tatuagem6.jpg"
+            alt=""
+            class="w-full h-64 object-cover mb-2 transition duration-300 ease-in-out transform hover:scale-105"
+          />
+          <h2
+            class="text-center text-lg sm:text-xl md:text-lg lg:text-base"
+          ></h2>
+        </div>
+        <div class="flex flex-col items-center group">
+          <img
+            src="/img/tatuagem7.jpg"
+            alt=""
+            class="w-full h-64 object-cover mb-2 transition duration-300 ease-in-out transform hover:scale-105"
+          />
+          <h2
+            class="text-center text-lg sm:text-xl md:text-lg lg:text-base"
+          ></h2>
+        </div>
+        <div class="flex flex-col items-center group">
+          <img
+            src="/img/tatuagem8.jpg"
+            alt=""
+            class="w-full h-64 object-cover mb-2 transition duration-300 ease-in-out transform hover:scale-105"
+          />
+          <h2
+            class="text-center text-lg sm:text-xl md:text-lg lg:text-base"
+          ></h2>
+        </div>
+        <div class="flex flex-col items-center group">
+          <img
+            src="/img/tatuagem9.jpg"
+            alt=""
+            class="w-full h-64 object-cover mb-2 transition duration-300 ease-in-out transform hover:scale-105"
+          />
+          <h2
+            class="text-center text-lg sm:text-xl md:text-lg lg:text-base"
+          ></h2>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
